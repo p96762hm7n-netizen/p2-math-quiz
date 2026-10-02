@@ -1,0 +1,110 @@
+{
+  "id": "quiz-24-25-term1",
+  "title": "上學期測驗",
+  "subtitle": "2024–2025 · 計算與選擇精選",
+  "topic": "綜合（三位數／加減／估算）",
+  "year": "2024-2025",
+  "emoji": "📝",
+  "hasAnswers": true,
+  "practiceOnly": false,
+  "source": "24-25 P.2 數學科上學期測驗.pdf + 答案",
+  "scoreDetailHint": "精選可數位化題目（原卷另有圖形題已略）",
+  "questions": [
+    {
+      "id": "q2",
+      "type": "word",
+      "section": "fill",
+      "sectionLabel": "一、填空",
+      "weight": 10,
+      "prompt": "寫出一個比 398 大、但比 410 小的奇數。（合理答案之一）",
+      "answer": "399",
+      "acceptAnyOf": ["399", "401", "403", "405", "407", "409"]
+    },
+    {
+      "id": "q3a",
+      "type": "order",
+      "section": "fill",
+      "sectionLabel": "一、填空",
+      "weight": 10,
+      "prompt": "依規律填數字：____、____、256、257、____",
+      "slots": 3,
+      "answers": ["254", "255", "258"]
+    },
+    {
+      "id": "q3b",
+      "type": "order",
+      "section": "fill",
+      "sectionLabel": "一、填空",
+      "weight": 10,
+      "prompt": "依規律填數字：440、438、436、____、____",
+      "slots": 2,
+      "answers": ["434", "432"],
+      "hint": "每次減 2"
+    },
+    {
+      "id": "q4a",
+      "type": "word",
+      "section": "fill",
+      "sectionLabel": "一、填空",
+      "weight": 10,
+      "prompt": "用數卡 1、2、5 排出最大的三位數。",
+      "answer": "521"
+    },
+    {
+      "id": "q4b",
+      "type": "word",
+      "section": "fill",
+      "sectionLabel": "一、填空",
+      "weight": 10,
+      "prompt": "用數卡 1、2、5 排出最小的三位偶數。",
+      "answer": "152"
+    },
+    {
+      "id": "q6",
+      "type": "mc",
+      "section": "mc",
+      "sectionLabel": "二、選擇",
+      "weight": 10,
+      "prompt": "多少個 50 是 300？",
+      "options": ["5", "6", "7", "8"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "type": "mc",
+      "section": "mc",
+      "sectionLabel": "二、選擇",
+      "weight": 10,
+      "prompt": "以下哪道算式最適合用來估算 188 + 32 的結果？",
+      "options": ["200 + 30", "100 + 30", "200 + 40", "100 + 40"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q8",
+      "type": "fill-inline",
+      "section": "calc",
+      "sectionLabel": "三、計算",
+      "weight": 10,
+      "prompt": "152 + 328 =",
+      "answer": "480"
+    },
+    {
+      "id": "q9",
+      "type": "fill-inline",
+      "section": "calc",
+      "sectionLabel": "三、計算",
+      "weight": 10,
+      "prompt": "378 − 65 =",
+      "answer": "313"
+    },
+    {
+      "id": "q11",
+      "type": "fill-inline",
+      "section": "calc",
+      "sectionLabel": "三、計算",
+      "weight": 10,
+      "prompt": "193 + 156 + 7 =",
+      "answer": "356"
+    }
+  ]
+}

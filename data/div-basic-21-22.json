@@ -1,0 +1,104 @@
+{
+  "id": "div-basic-21-22",
+  "title": "小測（基本除法）",
+  "subtitle": "2021–2022 · 第三段考",
+  "topic": "基本除法",
+  "year": "2021-2022",
+  "emoji": "➗",
+  "hasAnswers": true,
+  "practiceOnly": false,
+  "source": "小二數-小測1-21(基本除法)_guest-print.pdf",
+  "scoreDetailHint": "填空應用 40% · 數式 20% · 應用題 30% · 餘數 10%",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "word",
+      "section": "fill",
+      "sectionLabel": "一、填空",
+      "weight": 10,
+      "prompt": "28 個麵包，平均分成 7 份，每份有麵包多少個？",
+      "unit": "個",
+      "answer": "4"
+    },
+    {
+      "id": "q2a",
+      "type": "word",
+      "section": "fill",
+      "sectionLabel": "一、填空",
+      "weight": 10,
+      "prompt": "玩具車有 15 輛，平均分成 4 份，共可分成多少份？",
+      "unit": "份",
+      "answer": "3",
+      "hint": "15 ÷ 4，有餘數"
+    },
+    {
+      "id": "q2b",
+      "type": "word",
+      "section": "fill",
+      "sectionLabel": "一、填空",
+      "weight": 10,
+      "prompt": "玩具車有 15 輛，平均分成 4 份，餘下多少輛？",
+      "unit": "輛",
+      "answer": "3"
+    },
+    {
+      "id": "q3",
+      "type": "fill-inline",
+      "section": "relation",
+      "sectionLabel": "二、數式",
+      "weight": 5,
+      "prompt": "24 ÷ 8 =",
+      "answer": "3"
+    },
+    {
+      "id": "q4",
+      "type": "fill-inline",
+      "section": "relation",
+      "sectionLabel": "二、數式",
+      "weight": 5,
+      "promptHtml": "8 × <slot> = 24",
+      "blankPos": "middle",
+      "answer": "3"
+    },
+    {
+      "id": "q5",
+      "type": "fill-inline",
+      "section": "relation",
+      "sectionLabel": "二、數式",
+      "weight": 5,
+      "promptHtml": "<slot> ÷ 5 = 5",
+      "blankPos": "start",
+      "answer": "25"
+    },
+    {
+      "id": "q6",
+      "type": "fill-inline",
+      "section": "relation",
+      "sectionLabel": "二、數式",
+      "weight": 5,
+      "prompt": "5 × 5 =",
+      "answer": "25"
+    },
+    {
+      "id": "q7",
+      "type": "word",
+      "section": "word",
+      "sectionLabel": "三、應用題",
+      "weight": 15,
+      "prompt": "54 個貼紙，平均分給 9 位小朋友，每位小朋友有貼紙多少個？",
+      "unit": "個",
+      "answer": "6"
+    },
+    {
+      "id": "q8",
+      "type": "word",
+      "section": "word",
+      "sectionLabel": "三、應用題",
+      "weight": 15,
+      "prompt": "有 40 條金魚，每個魚缸可放 6 條金魚，最少要魚缸多少個？",
+      "unit": "個",
+      "answer": "7",
+      "hint": "有餘數時要多準備一個魚缸"
+    }
+  ]
+}

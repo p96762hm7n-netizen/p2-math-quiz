@@ -1,0 +1,25 @@
+{
+  "name": "小二數學科練習",
+  "short_name": "小二數學",
+  "description": "小二數學多試卷練習：乘法、除法、四位數、象形圖等",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#E8F4FC",
+  "theme_color": "#5B9BD5",
+  "lang": "zh-Hant",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

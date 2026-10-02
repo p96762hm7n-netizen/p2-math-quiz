@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1, user-scalable=no" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="apple-mobile-web-app-title" content="小二數學練習" />
+  <meta name="theme-color" content="#7EB8DA" />
+  <meta name="description" content="小二數學科多試卷練習：乘法、除法、四位數、象形圖等" />
+  <title>小二數學科練習</title>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="apple-touch-icon" href="icons/icon-192.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="app" class="app">
+    <!-- Start Screen -->
+    <section id="screen-start" class="screen screen-active" aria-label="開始畫面">
+      <div class="card start-card start-card-wide">
+        <div class="mascot" aria-hidden="true">📚</div>
+        <h1 id="app-title" class="title">小二數學科練習</h1>
+        <p class="subtitle">選擇試卷開始練習</p>
+
+        <div id="paper-list" class="paper-list" role="listbox" aria-label="試卷列表"></div>
+
+        <p id="selected-paper-meta" class="selected-meta hidden" aria-live="polite"></p>
+
+        <label class="field-label" for="student-name">姓名（可選）</label>
+        <input
+          id="student-name"
+          class="text-input"
+          type="text"
+          inputmode="text"
+          autocomplete="name"
+          placeholder="請輸入你的名字"
+          maxlength="20"
+          aria-label="姓名"
+        />
+        <button id="btn-start" class="btn btn-primary btn-xl" type="button" disabled>
+          開始答題
+        </button>
+        <p id="resume-hint" class="hint hidden" role="status"></p>
+      </div>
+    </section>
+
+    <!-- Quiz Screen -->
+    <section id="screen-quiz" class="screen" aria-label="答題畫面" hidden>
+      <header class="quiz-header">
+        <div class="header-top">
+          <button id="btn-home" class="btn-home" type="button" aria-label="返回試卷列表">⌂</button>
+          <span id="section-badge" class="badge">一、填空</span>
+          <span id="progress-text" class="progress-text">1 / 9</span>
+        </div>
+        <div id="progress-dots" class="progress-dots" role="list" aria-label="答題進度"></div>
+      </header>
+
+      <main id="question-area" class="question-area" aria-live="polite"></main>
+
+      <footer class="quiz-footer">
+        <button id="btn-prev" class="btn btn-secondary" type="button" aria-label="上一題">
+          ← 上一題
+        </button>
+        <button id="btn-next" class="btn btn-primary" type="button" aria-label="下一題">
+          下一題 →
+        </button>
+        <button id="btn-submit" class="btn btn-accent hidden" type="button" aria-label="交卷">
+          交卷
+        </button>
+      </footer>
+    </section>
+
+    <!-- Result Screen -->
+    <section id="screen-result" class="screen" aria-label="成績畫面" hidden>
+      <div class="card result-card">
+        <div id="result-emoji" class="result-emoji" aria-hidden="true">🌟</div>
+        <h2 id="result-title" class="title">小測完成！</h2>
+        <p id="result-name" class="subtitle"></p>
+        <div class="score-ring-wrap">
+          <div id="score-display" class="score-display" aria-live="polite">0%</div>
+          <p id="score-detail" class="score-detail"></p>
+        </div>
+        <div id="review-list" class="review-list" role="list"></div>
+        <button id="btn-retry" class="btn btn-primary btn-xl" type="button">
+          再試一次
+        </button>
+        <button id="btn-back-picker" class="btn btn-secondary btn-xl" type="button">
+          返回試卷列表
+        </button>
+      </div>
+    </section>
+  </div>
+
+  <!-- Number Keypad -->
+  <div id="keypad" class="keypad hidden" role="group" aria-label="數字鍵盤">
+    <div class="keypad-grid">
+      <button type="button" class="key" data-key="1">1</button>
+      <button type="button" class="key" data-key="2">2</button>
+      <button type="button" class="key" data-key="3">3</button>
+      <button type="button" class="key" data-key="4">4</button>
+      <button type="button" class="key" data-key="5">5</button>
+      <button type="button" class="key" data-key="6">6</button>
+      <button type="button" class="key" data-key="7">7</button>
+      <button type="button" class="key" data-key="8">8</button>
+      <button type="button" class="key" data-key="9">9</button>
+      <button type="button" class="key key-clear" data-key="clear" aria-label="清除">清除</button>
+      <button type="button" class="key" data-key="0">0</button>
+      <button type="button" class="key key-back" data-key="back" aria-label="刪除">⌫</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

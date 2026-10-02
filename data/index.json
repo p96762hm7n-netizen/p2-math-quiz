@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "appTitle": "小二數學科練習",
+  "papers": [
+    {
+      "id": "mul-basic-22-23",
+      "file": "mul-basic-22-23.json",
+      "title": "小測（基本乘法）",
+      "subtitle": "2022–2023 · 第二段考",
+      "topic": "基本乘法",
+      "year": "2022-2023",
+      "emoji": "✖️",
+      "hasAnswers": true,
+      "questionCount": 9
+    },
+    {
+      "id": "div-basic-21-22",
+      "file": "div-basic-21-22.json",
+      "title": "小測（基本除法）",
+      "subtitle": "2021–2022 · 第三段考",
+      "topic": "基本除法",
+      "year": "2021-2022",
+      "emoji": "➗",
+      "hasAnswers": true,
+      "questionCount": 9
+    },
+    {
+      "id": "four-digit",
+      "file": "four-digit.json",
+      "title": "小測（四位數）",
+      "subtitle": "下學期 · 小測一01",
+      "topic": "四位數",
+      "year": "2022-2023",
+      "emoji": "🔢",
+      "hasAnswers": true,
+      "questionCount": 10
+    },
+    {
+      "id": "three-digit",
+      "file": "three-digit.json",
+      "title": "小測（三位數及數數）",
+      "subtitle": "2022–2023 · 第一段考",
+      "topic": "三位數及數數",
+      "year": "2022-2023",
+      "emoji": "🧮",
+      "hasAnswers": true,
+      "questionCount": 10
+    },
+    {
+      "id": "pictogram",
+      "file": "pictogram.json",
+      "title": "小測（象形圖）",
+      "subtitle": "下學期 · 小測一02",
+      "topic": "象形圖",
+      "year": "2021-2022",
+      "emoji": "📊",
+      "hasAnswers": true,
+      "questionCount": 5
+    },
+    {
+      "id": "assessment-24-25-5",
+      "file": "assessment-24-25-5.json",
+      "title": "進展性評估（5）",
+      "subtitle": "2024–2025 · 加減與應用",
+      "topic": "加減運算",
+      "year": "2024-2025",
+      "emoji": "➕",
+      "hasAnswers": true,
+      "questionCount": 10
+    },
+    {
+      "id": "quiz-24-25-term1",
+      "file": "quiz-24-25-term1.json",
+      "title": "上學期測驗（精選）",
+      "subtitle": "2024–2025 · 計算與選擇",
+      "topic": "綜合",
+      "year": "2024-2025",
+      "emoji": "📝",
+      "hasAnswers": true,
+      "questionCount": 10
+    }
+  ]
+}

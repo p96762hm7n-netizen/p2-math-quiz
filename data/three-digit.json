@@ -1,0 +1,117 @@
+{
+  "id": "three-digit",
+  "title": "小測（三位數及數數）",
+  "subtitle": "2022–2023 · 第一段考",
+  "topic": "三位數及數數",
+  "year": "2022-2023",
+  "emoji": "🧮",
+  "hasAnswers": true,
+  "practiceOnly": false,
+  "source": "小二數-小測1-22-23(三位數及數數)_guest-print.pdf",
+  "scoreDetailHint": "按原卷比重約等比例計分",
+  "questions": [
+    {
+      "id": "q1a",
+      "type": "word",
+      "section": "place",
+      "sectionLabel": "一、位值",
+      "weight": 5,
+      "prompt": "算柱顯示：百位 3 粒、十位 2 粒、個位 4 粒。百位的數字是多少？",
+      "answer": "3",
+      "hint": "算柱圖：百位●●● 十位●● 個位●●●●"
+    },
+    {
+      "id": "q1b",
+      "type": "word",
+      "section": "place",
+      "sectionLabel": "一、位值",
+      "weight": 5,
+      "prompt": "同上算柱：百位數字「3」表示的數值是多少？",
+      "answer": "300"
+    },
+    {
+      "id": "q1c",
+      "type": "word",
+      "section": "place",
+      "sectionLabel": "一、位值",
+      "weight": 5,
+      "prompt": "同上算柱：十位數字「2」表示的數值是多少？",
+      "answer": "20"
+    },
+    {
+      "id": "q1d",
+      "type": "word",
+      "section": "place",
+      "sectionLabel": "一、位值",
+      "weight": 5,
+      "prompt": "同上算柱：個位數字「4」表示的數值是多少？",
+      "answer": "4"
+    },
+    {
+      "id": "q2",
+      "type": "mc",
+      "section": "read",
+      "sectionLabel": "二、讀數",
+      "weight": 15,
+      "prompt": "790 這個數讀作？",
+      "options": ["七百九十", "七十九", "七百零九", "九百七十"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3a",
+      "type": "order",
+      "section": "pattern",
+      "sectionLabel": "三、規律",
+      "weight": 15,
+      "prompt": "依規律填數字：198、199、____、____、202、____",
+      "slots": 3,
+      "answers": ["200", "201", "203"]
+    },
+    {
+      "id": "q3b",
+      "type": "order",
+      "section": "pattern",
+      "sectionLabel": "三、規律",
+      "weight": 15,
+      "prompt": "依規律填數字：275、300、____、350、____、400、____",
+      "slots": 3,
+      "answers": ["325", "375", "425"],
+      "hint": "每次加 25"
+    },
+    {
+      "id": "q4",
+      "type": "order",
+      "section": "order",
+      "sectionLabel": "四、排列",
+      "weight": 15,
+      "prompt": "把 460、604 和 406 由大至小排列。",
+      "slots": 3,
+      "answers": ["604", "460", "406"]
+    },
+    {
+      "id": "q5",
+      "type": "mc",
+      "section": "mc",
+      "sectionLabel": "五、選擇",
+      "weight": 15,
+      "prompt": "下面哪一組是倒數？",
+      "options": [
+        "523、523、525、526、527",
+        "527、529、523、526、524",
+        "524、525、526、527、528",
+        "526、525、524、523、522"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": "q6",
+      "type": "word",
+      "section": "count",
+      "sectionLabel": "六、數數",
+      "weight": 10,
+      "prompt": "每袋餅乾有 100 塊，圖中共有 3 袋，共有餅乾多少塊？",
+      "unit": "塊",
+      "answer": "300"
+    }
+  ]
+}

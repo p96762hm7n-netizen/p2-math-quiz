@@ -1,0 +1,116 @@
+{
+  "id": "four-digit",
+  "title": "小測（四位數）",
+  "subtitle": "二年級下學期 · 小測一01",
+  "topic": "四位數",
+  "year": "2022-2023",
+  "emoji": "🔢",
+  "hasAnswers": true,
+  "practiceOnly": false,
+  "source": "小二數-小測1-22-23-(四位數)_guest-print.pdf",
+  "scoreDetailHint": "各題等權計分",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "word",
+      "section": "fill",
+      "sectionLabel": "填空／選擇",
+      "weight": 10,
+      "prompt": "用阿拉伯數字寫出「六千零七十九」。",
+      "answer": "6079"
+    },
+    {
+      "id": "q2",
+      "type": "mc",
+      "section": "fill",
+      "sectionLabel": "填空／選擇",
+      "weight": 10,
+      "prompt": "以下哪個數的百位數字是「9」？",
+      "options": ["6105", "8605", "5604", "6953"],
+      "correctIndex": 3
+    },
+    {
+      "id": "q3a",
+      "type": "mc",
+      "section": "fill",
+      "sectionLabel": "填空／選擇",
+      "weight": 10,
+      "prompt": "在 7412 這個數中，數字「7」在哪一位？",
+      "options": ["千位", "百位", "十位", "個位"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3b",
+      "type": "word",
+      "section": "fill",
+      "sectionLabel": "填空／選擇",
+      "weight": 10,
+      "prompt": "在 7412 這個數中，數字「7」的數值是多少？",
+      "answer": "7000"
+    },
+    {
+      "id": "q4",
+      "type": "word",
+      "section": "fill",
+      "sectionLabel": "填空／選擇",
+      "weight": 10,
+      "prompt": "依指示寫出一個四位數：十位是「3」，千位是「5」，個位是最小的一位奇數，百位是最大的一位偶數。",
+      "answer": "5831",
+      "hint": "最小一位奇數＝1；最大一位偶數＝8"
+    },
+    {
+      "id": "q5",
+      "type": "order",
+      "section": "fill",
+      "sectionLabel": "填空／選擇",
+      "weight": 10,
+      "prompt": "用數卡 0、0、6、7 組成三個大於「七千」的四位數，由大至小排列。",
+      "hint": "大於 7000 且用到這些數卡",
+      "slots": 3,
+      "answers": ["7600", "7060", "7006"],
+      "acceptAnyOrder": false
+    },
+    {
+      "id": "q6",
+      "type": "word",
+      "section": "word",
+      "sectionLabel": "應用／選擇",
+      "weight": 10,
+      "prompt": "王先生說：「我每月儲蓄 500 元。」他在一月至九月共儲蓄多少元？",
+      "unit": "元",
+      "answer": "4500"
+    },
+    {
+      "id": "q7",
+      "type": "mc",
+      "section": "word",
+      "sectionLabel": "應用／選擇",
+      "weight": 10,
+      "prompt": "店員把一卷絲帶每 250 cm 剪成一段，剪出 4 段後，還餘 10 cm。這卷絲帶長多少 cm？",
+      "options": ["260 cm", "1240 cm", "1250 cm", "1010 cm"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "section": "word",
+      "sectionLabel": "應用／選擇",
+      "weight": 10,
+      "prompt": "牛奶銷量 4450 盒。用中國數字寫出是？",
+      "options": ["四千四百五十", "四千零四十五", "四千四百零五", "四千四百五"],
+      "correctIndex": 0,
+      "hint": "超級市場銷量：牛奶 4450、茶 1795、果汁 4697"
+    },
+    {
+      "id": "q9",
+      "type": "order",
+      "section": "word",
+      "sectionLabel": "應用／選擇",
+      "weight": 10,
+      "prompt": "把三款飲品銷量由低至高排列：牛奶 4450、茶 1795、果汁 4697。",
+      "slots": 3,
+      "answers": ["1795", "4450", "4697"],
+      "hint": "由低（最小）至高（最大）"
+    }
+  ]
+}

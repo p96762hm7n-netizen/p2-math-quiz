@@ -1,0 +1,117 @@
+{
+  "id": "assessment-24-25-5",
+  "title": "進展性評估（5）",
+  "subtitle": "2024–2025 · 加減運算與應用",
+  "topic": "加減運算",
+  "year": "2024-2025",
+  "emoji": "➕",
+  "hasAnswers": true,
+  "practiceOnly": false,
+  "source": "2024-2025 小二數學評估 P2 02.pdf + 答案",
+  "scoreDetailHint": "計算題與應用題",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "vertical",
+      "section": "calc",
+      "sectionLabel": "一、計算",
+      "weight": 10,
+      "a": 451,
+      "b": 432,
+      "op": "−",
+      "answer": "19"
+    },
+    {
+      "id": "q2",
+      "type": "word",
+      "section": "calc",
+      "sectionLabel": "一、計算",
+      "weight": 10,
+      "prompt": "計算：345 + 25 − 327 = ？",
+      "answer": "43",
+      "hint": "可先算 345 + 25，再減 327"
+    },
+    {
+      "id": "q3",
+      "type": "word",
+      "section": "calc",
+      "sectionLabel": "一、計算",
+      "weight": 10,
+      "prompt": "計算：246 − 172 + 538 = ？",
+      "answer": "612",
+      "hint": "可先算 246 − 172，再加 538"
+    },
+    {
+      "id": "q4",
+      "type": "fill-inline",
+      "section": "calc",
+      "sectionLabel": "一、計算",
+      "weight": 10,
+      "prompt": "401 − 235 − 52 =",
+      "answer": "114"
+    },
+    {
+      "id": "q5",
+      "type": "fill-inline",
+      "section": "calc",
+      "sectionLabel": "一、計算",
+      "weight": 10,
+      "prompt": "381 − 530 + 420 =",
+      "answer": "271"
+    },
+    {
+      "id": "q6",
+      "type": "word",
+      "section": "word",
+      "sectionLabel": "二、應用題",
+      "weight": 15,
+      "prompt": "學校籌款：2A 班 350 元、2B 班 423 元、2C 班 364 元。2B 班比 2A 班多籌得多少元？",
+      "unit": "元",
+      "answer": "73"
+    },
+    {
+      "id": "q7a",
+      "type": "word",
+      "section": "word",
+      "sectionLabel": "二、應用題",
+      "weight": 10,
+      "prompt": "教育小學有男生 324 人，女生比男生少 18 人。有女生多少人？",
+      "unit": "人",
+      "answer": "306"
+    },
+    {
+      "id": "q7b",
+      "type": "word",
+      "section": "word",
+      "sectionLabel": "二、應用題",
+      "weight": 10,
+      "prompt": "同上：全校共有學生多少人？（男生 324 + 女生）",
+      "unit": "人",
+      "answer": "630"
+    },
+    {
+      "id": "q8a",
+      "type": "mc",
+      "section": "word",
+      "sectionLabel": "二、應用題",
+      "weight": 5,
+      "prompt": "姊姊有 3 張 20 元紙幣（共 60 元），音樂盒售 74 元。夠不夠購買？",
+      "options": [
+        "足夠",
+        "不足夠"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q8b",
+      "type": "word",
+      "section": "word",
+      "sectionLabel": "二、應用題",
+      "weight": 10,
+      "prompt": "同上：購買音樂盒（74 元）尚欠多少元？",
+      "unit": "元",
+      "answer": "14",
+      "hint": "60 元不夠，尚欠 74 − 60"
+    }
+  ]
+}
