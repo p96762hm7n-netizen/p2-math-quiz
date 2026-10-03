@@ -84,7 +84,7 @@
   function normalizeNumeric(val) {
     if (val == null) return "";
     let s = String(val).trim();
-    s = s.replace(/人|元|枝|個|組|分|份|輛|塊|盒|cm|CM/gi, "").trim();
+    s = s.replace(/星期|小時|分鐘|人|元|角|枝|個|組|分|份|輛|塊|盒|隻|粒|包|條|張|碟|天|朵|打|棵|排|行|cm|CM/gi, "").trim();
     s = s.replace(/,/g, "");
     return s;
   }
@@ -287,7 +287,8 @@
     catalog.papers.forEach((p) => {
       const btn = document.createElement("button");
       btn.type = "button";
-      btn.className = "paper-card" + (state.paperId === p.id ? " selected" : "");
+      const feature = p.id === "word-problems" ? " paper-card-feature" : "";
+      btn.className = "paper-card" + feature + (state.paperId === p.id ? " selected" : "");
       btn.setAttribute("aria-pressed", String(state.paperId === p.id));
       btn.innerHTML = `
         <span class="paper-emoji" aria-hidden="true">${escapeHtml(p.emoji || "📄")}</span>
@@ -526,8 +527,9 @@
   }
 
   function renderWord(q) {
+    const focus = paper && paper.id === "word-problems" ? " word-focus" : "";
     return `
-      <div class="q-card">
+      <div class="q-card${focus}">
         <div class="q-number">第 ${state.index + 1} 題</div>
         ${contextBlock(q)}
         <p class="word-problem">${escapeHtml(q.prompt)}</p>
@@ -795,6 +797,16 @@
       state.answers = {};
       state.index = 0;
     }
+  }
+
+  const btnWordProblems = $("#btn-word-problems");
+  if (btnWordProblems) {
+    btnWordProblems.addEventListener("click", async () => {
+      if (!catalog) return;
+      await selectPaper("word-problems");
+      if (!paper || paper.id !== "word-problems" || !QUESTIONS.length) return;
+      btnStart.click();
+    });
   }
 
   btnStart.addEventListener("click", () => {

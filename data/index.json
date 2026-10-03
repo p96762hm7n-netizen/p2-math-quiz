@@ -3,6 +3,17 @@
   "appTitle": "小二數學科練習",
   "papers": [
     {
+      "id": "word-problems",
+      "file": "word-problems.json",
+      "title": "數學文字題",
+      "subtitle": "乘除、加減、半打與購物",
+      "topic": "文字題",
+      "year": "精選",
+      "emoji": "📖",
+      "hasAnswers": true,
+      "questionCount": 19
+    },
+    {
       "id": "mul-basic-22-23",
       "file": "mul-basic-22-23.json",
       "title": "小測（基本乘法）",

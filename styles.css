@@ -831,3 +831,52 @@ body.keypad-open .question-area {
 .inline-eq .answer-slot {
   min-width: 72px;
 }
+
+/* ===== 數學文字題 launch + large prompt ===== */
+.word-launch {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  text-align: left;
+  margin: 4px 0 14px;
+  padding: 16px 16px;
+  min-height: 84px;
+  border-radius: var(--radius);
+  border: 3px solid var(--accent);
+  background: linear-gradient(135deg, #FFF6EC 0%, #FFF 55%, #EAF5FF 100%);
+  box-shadow: 0 8px 18px rgba(244, 162, 97, 0.28);
+}
+.word-launch:active { transform: scale(0.98); }
+.word-launch-emoji { font-size: 2.2rem; line-height: 1; flex-shrink: 0; }
+.word-launch-text { display: flex; flex-direction: column; gap: 2px; min-width: 0; flex: 1; }
+.word-launch-title { font-size: 1.35rem; font-weight: 800; color: var(--text); }
+.word-launch-sub { font-size: 0.88rem; color: var(--text-muted); line-height: 1.35; }
+.word-launch-go {
+  flex-shrink: 0;
+  background: var(--accent);
+  color: #fff;
+  font-weight: 800;
+  font-size: 1.05rem;
+  padding: 10px 14px;
+  border-radius: 999px;
+}
+.paper-card.paper-card-feature {
+  border-color: var(--accent);
+  background: #FFF8F0;
+}
+.q-card.word-focus .word-problem {
+  font-size: 1.65rem;
+  line-height: 1.8;
+  font-weight: 650;
+  margin-bottom: 18px;
+}
+.q-card.word-focus .answer-slot {
+  min-width: 168px;
+  min-height: 80px;
+  font-size: 2.2rem;
+}
+.q-card.word-focus .word-answer-row .unit {
+  font-size: 1.55rem;
+  color: var(--text);
+}
